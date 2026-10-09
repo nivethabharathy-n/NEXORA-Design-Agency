@@ -91,55 +91,31 @@ npm install
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### 5. Open the Website
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open the following URL in your browser:
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-http://localhost:3000
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-The website should now run locally in development mode.
+## Learn More
 
-## Assumptions
+To learn more about Next.js, take a look at the following resources:
 
-* Portfolio images are stored in the `public/Portfolio/` directory.
-* The website is intended to showcase creative agency projects and their associated service categories.
-* Portfolio information is maintained in a JavaScript array for convenient updates.
-* The layout is designed to support desktop, tablet, and mobile screen sizes.
-* The project uses the Next.js framework and its configured development scripts.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Additional Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-* Smooth CSS transitions for interactive portfolio cards.
-* Image scaling and saturation effects on hover.
-* Gradient overlays that reveal project titles and categories.
-* Individual image display settings using `cover` and `contain`.
-* Configurable background colors for portfolio cards.
-* Centralized project data for easier portfolio maintenance.
+## Deploy on Vercel
 
-## Deployment
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-The website is deployed using Vercel.
-
-**Production URL:** https://nexora-design-agency.vercel.app/
-
-The GitHub repository can be connected to Vercel to support future deployments when changes are pushed to the configured branch.
-
-## Future Improvements
-
-* Add individual project detail pages.
-* Include direct links to completed client projects.
-* Improve accessibility and keyboard navigation.
-* Add portfolio category filtering.
-* Expand the portfolio with additional projects and case studies.
-
-## Author
-
-**Nivetha Bharathy**
-
-GitHub: https://github.com/nivethabharathy-n
-
----
-
-Thank you for visiting NEXORA Design Agency!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
