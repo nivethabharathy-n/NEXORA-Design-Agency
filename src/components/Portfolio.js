@@ -4,42 +4,42 @@ const projects = [
   {
     title: "The .Jannal",
     category: "Content & Production",
-    image: "/portfolio/project-1.jpg",
+    image: "/Portfolio/Project-1.jpg",
     fit: "cover",
     bg: "#c98f5e",
   },
   {
     title: "Deyga",
     category: "Branding",
-    image: "/portfolio/project-2.jpg",
+    image: "/Portfolio/Project-2.jpg",
     fit: "contain",
     bg: "#fafafa",
   },
   {
     title: "Kaii.Madras",
     category: "Content & Production",
-    image: "/portfolio/project-3.jpg",
+    image: "/Portfolio/Project-3.jpg",
     fit: "contain",
     bg: "#ffffff",
   },
   {
     title: "Cookd",
     category: "Social Media Marketing",
-    image: "/portfolio/project-4.jpg",
+    image: "/Portfolio/Project-4.jpg",
     fit: "contain",
     bg: "#fdf3e6",
   },
   {
     title: "Million Dollar Studios",
     category: "Branding",
-    image: "/portfolio/project-5.jpg",
+    image: "/Portfolio/Project-5.jpg",
     fit: "contain",
     bg: "#ffffff",
   },
   {
     title: "Bhavyarameshjewelry",
     category: "Creative Consulting",
-    image: "/portfolio/project-6.jpg",
+    image: "/Portfolio/Project-6.jpg",
     fit: "cover",
     bg: "#2a1a0e",
   },
@@ -70,7 +70,8 @@ export default function Portfolio() {
             <div
               key={project.title}
               style={{ backgroundColor: project.bg }}
-              className="group relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/10 transition duration-500 hover:-translate-y-2 hover:border-zinc-300/60 hover:shadow-[0_25px_70px_-20px_rgba(200,205,215,0.35)]"
+              className="group relative aspect-[4/3] w-full max-w-[280px] mx-auto overflow-hidden rounded-3xl border border-white/10 transition duration-500 hover:-translate-y-2 hover:border-zinc-300/60 hover:shadow-[0_25px_70px_-20px_rgba(200,205,215,0.35)]"
+
             >
               <Image
                 src={project.image}
